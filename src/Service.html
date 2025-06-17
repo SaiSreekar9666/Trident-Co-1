@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | TridentCo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../styles/Service.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loader">
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+    </div>
+  </div>
+
+  <!-- Floating Action Buttons -->
+  <div class="fab-container">
+    <button class="fab-main">
+      <i class="fas fa-comment-dots"></i>
+    </button>
+    <div class="fab-options">
+      <a href="https://wa.me/1234567890" class="fab-option whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="tel:+1234567890" class="fab-option phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="mailto:info@tridentco.com" class="fab-option email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <img src="" alt="TridentCo Logo" class="logo">
+        <h1>Trident<span>Co</span></h1>
+      </div>
+      <nav>
+        <a href="/src/Index.html">Home</a>
+        <a href="/src/Service.html" class="active">Services</a>
+        <a href="/src/caseStudies.html">Case Studies</a>
+        <a href="/src/about.html">About Us</a>
+        <a href="/src/Service.html">Contact</a>
+        <button class="nav-cta">Get Consultation</button>
+      </nav>
+      <button class="mobile-menu-btn">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Services Hero Section -->
+  <section class="services-hero">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Our Comprehensive Services</h1>
+        <p>Expert solutions tailored to your business needs, delivering measurable results and sustainable growth.</p>
+        <div class="breadcrumbs">
+          <a href="../views/Landingpage.html">Home</a>
+          <i class="fas fa-chevron-right"></i>
+          <span>Services</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Overview -->
+  <section class="services-overview">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-subtitle">What We Offer</p>
+        <h2>Transforming Businesses Through Technology</h2>
+        <p class="section-description">We combine deep industry expertise with cutting-edge technology to deliver solutions that drive real business impact.</p>
+      </div>
+
+      <div class="services-tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="development">
+            <i class="fas fa-code"></i> Development
+          </button>
+          <button class="tab-btn" data-tab="cloud">
+            <i class="fas fa-cloud"></i> Cloud
+          </button>
+          <button class="tab-btn" data-tab="data">
+            <i class="fas fa-database"></i> Data
+          </button>
+          <button class="tab-btn" data-tab="security">
+            <i class="fas fa-shield-alt"></i> Security
+          </button>
+          <button class="tab-btn" data-tab="consulting">
+            <i class="fas fa-chart-line"></i> Consulting
+          </button>
+        </div>
+
+        <div class="tab-content active" id="development">
+          <div class="tab-content-inner">
+            <div class="tab-text">
+              <h3>Custom Software Development</h3>
+              <p>We build robust, scalable applications that solve your unique business challenges. Our full-stack development expertise covers everything from web and mobile apps to complex enterprise systems.</p>
+              <ul class="service-features">
+                <li><i class="fas fa-check-circle"></i> Web Application Development</li>
+                <li><i class="fas fa-check-circle"></i> Mobile App Development (iOS & Android)</li>
+                <li><i class="fas fa-check-circle"></i> Enterprise Software Solutions</li>
+                <li><i class="fas fa-check-circle"></i> API Development & Integration</li>
+                <li><i class="fas fa-check-circle"></i> Legacy System Modernization</li>
+              </ul>
+              <a href="../views/Consultation.html" class="cta-btn primary">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="tab-image">
+              <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Software Development">
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="cloud">
+          <div class="tab-content-inner">
+            <div class="tab-text">
+              <h3>Cloud & DevOps Services</h3>
+              <p>Accelerate your digital transformation with our comprehensive cloud solutions. We help businesses migrate, optimize, and manage cloud infrastructure for maximum performance and cost efficiency.</p>
+              <ul class="service-features">
+                <li><i class="fas fa-check-circle"></i> Cloud Migration Strategy & Implementation</li>
+                <li><i class="fas fa-check-circle"></i> AWS, Azure & Google Cloud Solutions</li>
+                <li><i class="fas fa-check-circle"></i> CI/CD Pipeline Implementation</li>
+                <li><i class="fas fa-check-circle"></i> Infrastructure as Code (IaC)</li>
+                <li><i class="fas fa-check-circle"></i> Containerization & Orchestration</li>
+              </ul>
+              <a href="../views/Consultation.html" class="cta-btn primary">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="tab-image">
+              <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cloud Services">
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="data">
+          <div class="tab-content-inner">
+            <div class="tab-text">
+              <h3>Data Analytics & AI</h3>
+              <p>Turn your data into actionable insights with our advanced analytics and AI solutions. We help businesses harness the power of their data to drive decision-making and innovation.</p>
+              <ul class="service-features">
+                <li><i class="fas fa-check-circle"></i> Business Intelligence & Dashboarding</li>
+                <li><i class="fas fa-check-circle"></i> Predictive Analytics & Machine Learning</li>
+                <li><i class="fas fa-check-circle"></i> Big Data Processing & Warehousing</li>
+                <li><i class="fas fa-check-circle"></i> Data Visualization & Reporting</li>
+                <li><i class="fas fa-check-circle"></i> AI Strategy & Implementation</li>
+              </ul>
+              <a href="../views/Consultation.html" class="cta-btn primary">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="tab-image">
+              <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Data Analytics">
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="security">
+          <div class="tab-content-inner">
+            <div class="tab-text">
+              <h3>Cybersecurity Services</h3>
+              <p>Protect your digital assets with our comprehensive security solutions. We provide end-to-end protection against evolving cyber threats with proactive monitoring and rapid response.</p>
+              <ul class="service-features">
+                <li><i class="fas fa-check-circle"></i> Security Risk Assessments</li>
+                <li><i class="fas fa-check-circle"></i> Penetration Testing & Vulnerability Scanning</li>
+                <li><i class="fas fa-check-circle"></i> Security Operations Center (SOC) Services</li>
+                <li><i class="fas fa-check-circle"></i> Compliance & Regulatory Support</li>
+                <li><i class="fas fa-check-circle"></i> Incident Response & Recovery</li>
+              </ul>
+              <a href="../views/Consultation.html" class="cta-btn primary">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="tab-image">
+              <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Cybersecurity">
+            </div>
+          </div>
+        </div>
+
+        <div class="tab-content" id="consulting">
+          <div class="tab-content-inner">
+            <div class="tab-text">
+              <h3>IT Strategy & Consulting</h3>
+              <p>Align your technology with business objectives through our strategic consulting services. Our experts help you navigate digital transformation with confidence.</p>
+              <ul class="service-features">
+                <li><i class="fas fa-check-circle"></i> Digital Transformation Strategy</li>
+                <li><i class="fas fa-check-circle"></i> Technology Roadmapping</li>
+                <li><i class="fas fa-check-circle"></i> IT Infrastructure Assessment</li>
+                <li><i class="fas fa-check-circle"></i> Process Optimization</li>
+                <li><i class="fas fa-check-circle"></i> Vendor Selection & Management</li>
+              </ul>
+              <a href="../views/Consultation.html" class="cta-btn primary">Get Started <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="tab-image">
+              <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="IT Consulting">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Process -->
+  <section class="service-process">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-subtitle">Our Approach</p>
+        <h2>Proven Process for Success</h2>
+        <p class="section-description">We follow a structured methodology to ensure quality, efficiency, and measurable results.</p>
+      </div>
+
+      <div class="process-steps">
+        <div class="process-step" data-aos="fade-up" data-aos-delay="100">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <h3>Discovery</h3>
+            <p>We begin by thoroughly understanding your business objectives, challenges, and technical requirements.</p>
+          </div>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="200">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <h3>Planning</h3>
+            <p>Our team creates a detailed roadmap with milestones, deliverables, and success metrics.</p>
+          </div>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="300">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <h3>Execution</h3>
+            <p>We implement solutions using agile methodologies with regular progress updates.</p>
+          </div>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <h3>Delivery</h3>
+            <p>We deploy the solution with comprehensive documentation and training.</p>
+          </div>
+        </div>
+        <div class="process-step" data-aos="fade-up" data-aos-delay="500">
+          <div class="step-number">05</div>
+          <div class="step-content">
+            <h3>Support</h3>
+            <p>Ongoing maintenance and optimization to ensure continued success.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technology Stack -->
+  <section class="technology-stack">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-subtitle">Our Expertise</p>
+        <h2>Technology Stack</h2>
+        <p class="section-description">We work with leading technologies to deliver best-in-class solutions.</p>
+      </div>
+
+      <div class="tech-categories">
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="100">
+          <h3>Frontend</h3>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=React" alt="React">
+              <span>React</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Angular" alt="Angular">
+              <span>Angular</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Vue" alt="Vue">
+              <span>Vue</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=TypeScript" alt="TypeScript">
+              <span>TypeScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="200">
+          <h3>Backend</h3>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Node.js" alt="Node.js">
+              <span>Node.js</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Python" alt="Python">
+              <span>Python</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Java" alt="Java">
+              <span>Java</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=.NET" alt=".NET">
+              <span>.NET</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="300">
+          <h3>Cloud</h3>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=AWS" alt="AWS">
+              <span>AWS</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Azure" alt="Azure">
+              <span>Azure</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=GCP" alt="GCP">
+              <span>GCP</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=Docker" alt="Docker">
+              <span>Docker</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-category" data-aos="fade-up" data-aos-delay="400">
+          <h3>Data & AI</h3>
+          <div class="tech-items">
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=SQL" alt="SQL">
+              <span>SQL</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=MongoDB" alt="MongoDB">
+              <span>MongoDB</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=TensorFlow" alt="TensorFlow">
+              <span>TensorFlow</span>
+            </div>
+            <div class="tech-item">
+              <img src="https://via.placeholder.com/60x60?text=PyTorch" alt="PyTorch">
+              <span>PyTorch</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-right">
+        <h2>Ready to Discuss Your Project?</h2>
+        <p>Our experts are standing by to help you identify the right solutions for your business needs.</p>
+      </div>
+      <div class="cta-form" data-aos="fade-left">
+        <form class="consultation-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="" disabled selected>Service Interest</option>
+              <option>Software Development</option>
+              <option>Cloud Services</option>
+              <option>Data Analytics</option>
+              <option>Cybersecurity</option>
+              <option>IT Consulting</option>
+            </select>
+          </div>
+          <button type="submit">Request Free Consultation</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col about-col">
+          <div class="logo-container">
+            <img src="../images/trident-1-logo.png" alt="TridentCo Logo" class="logo">
+            <h1>Trident<span>Co</span></h1>
+          </div>
+          <p class="footer-about">We deliver innovative technology solutions that drive business growth and digital transformation for organizations worldwide.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col services-col">
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-links">
+            <li><a href="#">Custom Software Development</a></li>
+            <li><a href="#">Cloud & DevOps</a></li>
+            <li><a href="#">Data Analytics & AI</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Digital Transformation</a></li>
+            <li><a href="#">IT Consulting</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col industries-col">
+          <h3 class="footer-title">Industries</h3>
+          <ul class="footer-links">
+            <li><a href="#">Financial Services</a></li>
+            <li><a href="#">Healthcare</a></li>
+            <li><a href="#">Retail & E-commerce</a></li>
+            <li><a href="#">Manufacturing</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Government</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col contact-col">
+          <h3 class="footer-title">Contact Us</h3>
+          <ul class="footer-contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Business Ave, Suite 500<br>San Francisco, CA 94107</li>
+            <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@tridentco.com</li>
+          </ul>
+          <div class="footer-newsletter">
+            <h4>Subscribe to Our Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your Email Address">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2023 TridentCo. All Rights Reserved.</p>
+        </div>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="../js/LandingPage.js"></script>
+  <script src="../js/ServicesPage.js"></script>
+</body>
+</html>

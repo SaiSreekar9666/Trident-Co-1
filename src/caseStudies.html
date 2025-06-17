@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Studies | TridentCo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="/src/css/Service.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loader">
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+    </div>
+  </div>
+
+  <!-- Floating Action Buttons -->
+  <div class="fab-container">
+    <button class="fab-main">
+      <i class="fas fa-comment-dots"></i>
+    </button>
+    <div class="fab-options">
+      <a href="https://wa.me/1234567890" class="fab-option whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="tel:+1234567890" class="fab-option phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="mailto:info@tridentco.com" class="fab-option email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <img src="../images/trident-1-logo.png" alt="TridentCo Logo" class="logo">
+        <h1>Trident<span>Co</span></h1>
+      </div>
+      <nav>
+        <a href="/src/Index.html">Home</a>
+        <a href="/src/Service.html">Services</a>
+        <a href="/src/caseStudies.html" class="active">Case Studies</a>
+        <a href="/src/about.html">About Us</a>
+        <a href="/src/Contact.html">Contact</a>
+        <button class="nav-cta">Get Consultation</button>
+      </nav>
+      <button class="mobile-menu-btn">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Case Studies Hero Section -->
+  <section class="case-studies-hero">
+    <div class="container">
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Our Success Stories</h1>
+        <p>Discover how we've helped businesses overcome challenges and achieve remarkable results through technology.</p>
+        <div class="breadcrumbs">
+          <a href="../views/Landingpage.html">Home</a>
+          <i class="fas fa-chevron-right"></i>
+          <span>Case Studies</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies Filter -->
+  <section class="case-studies-filter">
+    <div class="container">
+      <div class="filter-controls">
+        <button class="filter-btn active" data-filter="all">All Industries</button>
+        <button class="filter-btn" data-filter="finance">Financial Services</button>
+        <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+        <button class="filter-btn" data-filter="retail">Retail</button>
+        <button class="filter-btn" data-filter="manufacturing">Manufacturing</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies Grid -->
+  <section class="case-studies-grid-section">
+    <div class="container">
+      <div class="case-studies-grid">
+        <div class="case-study-card" data-category="finance" data-aos="fade-up">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Financial Services Case Study">
+            <div class="case-study-overlay">
+              <span class="case-study-category">Financial Services</span>
+              <h3>Digital Transformation for Regional Bank</h3>
+              <p>Modernized legacy systems resulting in 40% operational efficiency gains</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="case-study-info">
+            <h3>Digital Transformation for Regional Bank</h3>
+            <p>Modernized core banking systems and implemented mobile banking platform serving 500,000+ customers.</p>
+            <div class="case-study-stats">
+              <div class="stat-item">
+                <span class="stat-value">40%</span>
+                <span class="stat-label">Efficiency Gain</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">3x</span>
+                <span class="stat-label">Faster Processing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-card" data-category="healthcare" data-aos="fade-up" data-aos-delay="100">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Healthcare Case Study">
+            <div class="case-study-overlay">
+              <span class="case-study-category">Healthcare</span>
+              <h3>AI-Powered Diagnostic Platform</h3>
+              <p>Reduced diagnostic time by 65% with machine learning algorithms</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="case-study-info">
+            <h3>AI-Powered Diagnostic Platform</h3>
+            <p>Developed custom AI solution for medical imaging analysis that improved diagnostic accuracy by 30%.</p>
+            <div class="case-study-stats">
+              <div class="stat-item">
+                <span class="stat-value">65%</span>
+                <span class="stat-label">Faster Diagnosis</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">30%</span>
+                <span class="stat-label">Accuracy Improvement</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-card" data-category="retail" data-aos="fade-up" data-aos-delay="200">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Retail Case Study">
+            <div class="case-study-overlay">
+              <span class="case-study-category">Retail</span>
+              <h3>Omnichannel Retail Platform</h3>
+              <p>Unified customer experience across 150+ stores and e-commerce</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="case-study-info">
+            <h3>Omnichannel Retail Platform</h3>
+            <p>Created seamless shopping experience integrating POS, e-commerce, and inventory management systems.</p>
+            <div class="case-study-stats">
+              <div class="stat-item">
+                <span class="stat-value">210%</span>
+                <span class="stat-label">Online Growth</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">25%</span>
+                <span class="stat-label">Higher AOV</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-card" data-category="manufacturing" data-aos="fade-up" data-aos-delay="300">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1486401899868-0e435ed85128?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Manufacturing Case Study">
+            <div class="case-study-overlay">
+              <span class="case-study-category">Manufacturing</span>
+              <h3>Predictive Maintenance System</h3>
+              <p>Reduced equipment downtime by 45% with IoT and AI</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="case-study-info">
+            <h3>Predictive Maintenance System</h3>
+            <p>Implemented IoT sensors and machine learning to predict equipment failures before they occur.</p>
+            <div class="case-study-stats">
+              <div class="stat-item">
+                <span class="stat-value">45%</span>
+                <span class="stat-label">Downtime Reduction</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">$1.2M</span>
+                <span class="stat-label">Annual Savings</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-card" data-category="finance" data-aos="fade-up">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="FinTech Case Study">
+            <div class="case-study-overlay">
+              <span class="case-study-category">Financial Services</span>
+              <h3>Blockchain Payment Solution</h3>
+              <p>Enabled secure cross-border transactions with 80% cost reduction</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="case-study-info">
+            <h3>Blockchain Payment Solution</h3>
+            <p>Developed distributed ledger solution for international payments processing.</p>
+            <div class="case-study-stats">
+              <div class="stat-item">
+                <span class="stat-value">80%</span>
+                <span class="stat-label">Cost Reduction</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">4x</span>
+                <span class="stat-label">Faster Settlements</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-study-card" data-category="healthcare" data-aos="fade-up" data-aos-delay="100">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Healthcare Case Study">
+            <div class="case-study-overlay">
+                              <span class="case-study-category">Healthcare</span>
+              <h3>Telemedicine Platform Development</h3>
+              <p>Enabled remote consultations for 200+ healthcare providers</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+          <div class="case-study-info">
+            <h3>Telemedicine Platform Development</h3>
+            <p>Built a secure, HIPAA-compliant platform connecting patients with specialists across multiple states.</p>
+            <div class="case-study-stats">
+              <div class="stat-item">
+                <span class="stat-value">85%</span>
+                <span class="stat-label">Patient Satisfaction</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">50k+</span>
+                <span class="stat-label">Monthly Consultations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="case-studies-cta" data-aos="fade-up">
+        <h2>Ready to Start Your Success Story?</h2>
+        <p>Let's discuss how we can help your business achieve similar results.</p>
+        <div class="cta-buttons">
+          <button class="primary-btn">Get Free Consultation</button>
+          <button class="secondary-btn">Browse All Services</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="case-studies-testimonials">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>What Our Clients Say</h2>
+        <p>Hear from the businesses we've transformed through technology.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card" data-aos="fade-up">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"TridentCo's digital transformation solution revolutionized our banking operations. The 40% efficiency gain exceeded our expectations and has positioned us for future growth."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Sarah Johnson">
+            <div class="author-info">
+              <h4>Sarah Johnson</h4>
+              <span>CEO, Regional Bank</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"The predictive maintenance system has been a game-changer for our manufacturing operations. The $1.2M annual savings have directly impacted our bottom line."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen">
+            <div class="author-info">
+              <h4>Michael Chen</h4>
+              <span>Operations Director, Manufacturing Co</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="testimonial-content">
+            <div class="rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <p>"Our telemedicine platform developed by TridentCo has allowed us to expand our reach and provide critical care to rural communities. The platform is robust and user-friendly."</p>
+          </div>
+          <div class="testimonial-author">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Dr. Angela Martinez">
+            <div class="author-info">
+              <h4>Dr. Angela Martinez</h4>
+              <span>Medical Director, Healthcare Network</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-content" data-aos="fade-up">
+        <div class="newsletter-text">
+          <h2>Stay Updated with Our Latest Case Studies</h2>
+          <p>Subscribe to our newsletter to receive our most recent success stories and industry insights.</p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-about">
+          <div class="logo-container">
+            <img src="../images/trident-1-logo.png" alt="TridentCo Logo" class="logo">
+            <h1>Trident<span>Co</span></h1>
+          </div>
+          <p>Transforming businesses through innovative technology solutions since 2010. We help companies navigate the digital landscape with confidence.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="../views/Landingpage.html">Home</a></li>
+            <li><a href="../views/Service.html">Services</a></li>
+            <li><a href="../views/CaseStudies.html">Case Studies</a></li>
+            <li><a href="../views/AboutUs.html">About Us</a></li>
+            <li><a href="../views/Contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-services">
+          <h3>Services</h3>
+          <ul>
+            <li><a href="#">Digital Transformation</a></li>
+            <li><a href="#">Cloud Solutions</a></li>
+            <li><a href="#">AI & Machine Learning</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Data Analytics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col footer-contact">
+          <h3>Contact Us</h3>
+          <ul>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Tech Park, Silicon Valley, CA 94025</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@tridentco.com</li>
+            <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2023 TridentCo. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="../js/LandingPage.js"></script>
+  <script>
+    // Initialize AOS animation library
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+
+    // Case Studies Filter Functionality
+    document.addEventListener('DOMContentLoaded', function() {
+      const filterButtons = document.querySelectorAll('.filter-btn');
+      
+      filterButtons.forEach(button => {
+        button.addEventListener('click', function() {
+          // Remove active class from all buttons
+          filterButtons.forEach(btn => btn.classList.remove('active'));
+          
+          // Add active class to clicked button
+          this.classList.add('active');
+          
+          const filterValue = this.getAttribute('data-filter');
+          const caseStudies = document.querySelectorAll('.case-study-card');
+          
+          caseStudies.forEach(study => {
+            if (filterValue === 'all' || study.getAttribute('data-category') === filterValue) {
+              study.style.display = 'block';
+            } else {
+              study.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+</html>

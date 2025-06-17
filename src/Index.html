@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TridentCo - Premium Business Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="../src/css/index.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+  <!-- Loading Screen -->
+  <div class="loading-screen">
+    <div class="loader">
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+      <div class="hexagon"></div>
+    </div>
+  </div>
+
+  <!-- Floating Action Buttons -->
+  <div class="fab-container">
+    <button class="fab-main">
+      <i class="fas fa-comment-dots"></i>
+    </button>
+    <div class="fab-options">
+      <a href="https://wa.me/1234567890" class="fab-option whatsapp" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="tel:+1234567890" class="fab-option phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="mailto:info@tridentco.com" class="fab-option email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <img src="/public/logo/trident-1-logo.png" alt="TridentCo Logo" class="logo">
+        <h1>Trident<span>Co</span></h1>
+      </div>
+      <nav>
+        <a href="/src/Index.html" class="active">Home</a>
+        <a href="/src/Service.html">Services</a>
+        <a href="/src/caseStudies.html">Case Studies</a>
+        <a href="/src/about.html">About Us</a>
+        <a href="/src/Service.html">Contact</a>
+        <button class="nav-cta">Get Consultation</button>
+      </nav>
+      <button class="mobile-menu-btn">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-text" data-aos="fade-right" data-aos-delay="300">
+        <h1>Transform Your Business with <span>Digital Excellence</span></h1>
+        <p class="subtitle">We deliver cutting-edge solutions that drive growth, efficiency, and competitive advantage for businesses worldwide.</p>
+        <div class="hero-cta">
+          <button class="cta-btn primary">Get Started <i class="fas fa-arrow-right"></i></button>
+          <button class="cta-btn secondary">Watch Demo <i class="fas fa-play-circle"></i></button>
+        </div>
+        <div class="trust-badges">
+          <div class="badge-item">
+            <i class="fas fa-medal"></i>
+            <span>Premium Partner</span>
+          </div>
+          <div class="badge-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>Secure Solutions</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image" data-aos="fade-left" data-aos-delay="500">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Business team discussing digital strategy">
+        <div class="floating-card analytics">
+          <i class="fas fa-chart-line"></i>
+          <div>
+            <span class="value">+87%</span>
+            <span class="label">Client Growth</span>
+          </div>
+        </div>
+        <div class="floating-card clients">
+          <i class="fas fa-users"></i>
+          <div>
+            <span class="value">250+</span>
+            <span class="label">Satisfied Clients</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- Clients Section -->
+  <section class="clients-section">
+    <div class="container">
+      <p class="section-subtitle">Trusted by industry leaders worldwide</p>
+      <div class="client-logos">
+        <img src="https://via.placeholder.com/150x60?text=Microsoft" alt="Microsoft" data-aos="zoom-in">
+        <img src="https://via.placeholder.com/150x60?text=Google" alt="Google" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://via.placeholder.com/150x60?text=Amazon" alt="Amazon" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://via.placeholder.com/150x60?text=IBM" alt="IBM" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://via.placeholder.com/150x60?text=Salesforce" alt="Salesforce" data-aos="zoom-in" data-aos-delay="400">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-subtitle">Our Expertise</p>
+        <h2>Comprehensive Business Solutions</h2>
+        <p class="section-description">We offer end-to-end services designed to address your most critical business challenges and opportunities.</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Custom Software Development</h3>
+          <p>Tailored applications built to streamline your operations and enhance productivity with cutting-edge technology.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Web & Mobile Applications</li>
+            <li><i class="fas fa-check-circle"></i> Enterprise Solutions</li>
+            <li><i class="fas fa-check-circle"></i> API Integrations</li>
+          </ul>
+          <a href="#" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3>Cloud & DevOps Services</h3>
+          <p>Scalable cloud infrastructure and CI/CD pipelines to accelerate your digital transformation journey.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> AWS/Azure/GCP Migration</li>
+            <li><i class="fas fa-check-circle"></i> Containerization</li>
+            <li><i class="fas fa-check-circle"></i> Infrastructure as Code</li>
+          </ul>
+          <a href="#" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon">
+            <i class="fas fa-chart-pie"></i>
+          </div>
+          <h3>Data Analytics & AI</h3>
+          <p>Turn your data into actionable insights with our advanced analytics and machine learning solutions.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Business Intelligence</li>
+            <li><i class="fas fa-check-circle"></i> Predictive Analytics</li>
+            <li><i class="fas fa-check-circle"></i> AI/ML Implementation</li>
+          </ul>
+          <a href="#" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Cybersecurity Services</h3>
+          <p>Comprehensive protection for your digital assets with our enterprise-grade security solutions.</p>
+          <ul class="service-features">
+            <li><i class="fas fa-check-circle"></i> Risk Assessment</li>
+            <li><i class="fas fa-check-circle"></i> Penetration Testing</li>
+            <li><i class="fas fa-check-circle"></i> Security Operations</li>
+          </ul>
+          <a href="#" class="learn-more">Explore <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      
+      <div class="cta-banner" data-aos="fade-up">
+        <div class="banner-content">
+          <h3>Need a custom solution?</h3>
+          <p>Our experts can design a tailored package specifically for your business needs.</p>
+        </div>
+        <button class="banner-cta">Request Consultation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="stat-value" data-count="250">0</div>
+        <div class="stat-label">Global Clients</div>
+      </div>
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="stat-value" data-count="98">0</div>
+        <div class="stat-label">Client Retention</div>
+      </div>
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="300">
+        <div class="stat-value" data-count="15">0</div>
+        <div class="stat-label">Years Experience</div>
+      </div>
+      <div class="stat-card" data-aos="fade-up" data-aos-delay="400">
+        <div class="stat-value" data-count="40">0</div>
+        <div class="stat-label">Industry Awards</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-subtitle">Client Success Stories</p>
+        <h2>What Our Clients Say</h2>
+        <p class="section-description">Don't just take our word for it - hear from businesses we've transformed.</p>
+      </div>
+      
+      <div class="testimonial-slider">
+        <div class="testimonial-track">
+          <!-- Testimonials will be injected here by JavaScript -->
+        </div>
+      </div>
+      
+      <div class="slider-controls">
+        <button class="slider-prev"><i class="fas fa-chevron-left"></i></button>
+        <div class="slider-dots"></div>
+        <button class="slider-next"><i class="fas fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Case Studies Section -->
+  <section class="case-studies-section">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <p class="section-subtitle">Our Impact</p>
+        <h2>Success Stories</h2>
+        <p class="section-description">Explore how we've helped businesses overcome challenges and achieve remarkable results.</p>
+      </div>
+      
+      <div class="case-studies-grid">
+        <div class="case-study-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="E-commerce platform">
+            <div class="case-study-overlay">
+              <span class="case-study-category">E-commerce</span>
+              <h3>Revolutionizing Online Retail</h3>
+              <p>How we helped a fashion retailer increase conversions by 210%</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="case-study-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Financial services">
+            <div class="case-study-overlay">
+              <span class="case-study-category">FinTech</span>
+              <h3>Digital Transformation in Banking</h3>
+              <p>Modernizing legacy systems for a leading financial institution</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="case-study-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="case-study-image">
+            <img src="https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Healthcare technology">
+            <div class="case-study-overlay">
+              <span class="case-study-category">Healthcare</span>
+              <h3>AI-Powered Diagnostics</h3>
+              <p>Developing cutting-edge medical imaging solutions</p>
+              <a href="#" class="case-study-link">View Case Study <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content" data-aos="fade-right">
+        <h2>Ready to Transform Your Business?</h2>
+        <p>Schedule a free consultation with our experts to discuss your project needs and discover how we can help you achieve your goals.</p>
+      </div>
+      <div class="cta-form" data-aos="fade-left">
+        <form class="consultation-form">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <select required>
+              <option value="" disabled selected>Service Interest</option>
+              <option>Software Development</option>
+              <option>Cloud Services</option>
+              <option>Data Analytics</option>
+              <option>Cybersecurity</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <button type="submit">Request Free Consultation</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col about-col">
+          <div class="logo-container">
+            <img src="./images/trident-1-logo.png" alt="TridentCo Logo" class="logo">
+            <h1>Trident<span>Co</span></h1>
+          </div>
+          <p class="footer-about">We deliver innovative technology solutions that drive business growth and digital transformation for organizations worldwide.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col services-col">
+          <h3 class="footer-title">Services</h3>
+          <ul class="footer-links">
+            <li><a href="#">Custom Software Development</a></li>
+            <li><a href="#">Cloud & DevOps</a></li>
+            <li><a href="#">Data Analytics & AI</a></li>
+            <li><a href="#">Cybersecurity</a></li>
+            <li><a href="#">Digital Transformation</a></li>
+            <li><a href="#">IT Consulting</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col industries-col">
+          <h3 class="footer-title">Industries</h3>
+          <ul class="footer-links">
+            <li><a href="#">Financial Services</a></li>
+            <li><a href="#">Healthcare</a></li>
+            <li><a href="#">Retail & E-commerce</a></li>
+            <li><a href="#">Manufacturing</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Government</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col contact-col">
+          <h3 class="footer-title">Contact Us</h3>
+          <ul class="footer-contact-info">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Business Ave, Suite 500<br>San Francisco, CA 94107</li>
+            <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@tridentco.com</li>
+          </ul>
+          <div class="footer-newsletter">
+            <h4>Subscribe to Our Newsletter</h4>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your Email Address">
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2023 TridentCo. All Rights Reserved.</p>
+        </div>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="/src/javascript/index.js"></script>
+</body>
+</html>
